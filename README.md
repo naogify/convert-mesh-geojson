@@ -76,9 +76,3 @@
    ]
   }
 ```
-
-## 表示サンプル
-
-![スクリーンショット 2022-05-13 16 46 25](https://user-images.githubusercontent.com/8760841/168236218-6f85f820-9b0e-4182-ba79-beb9dbe5fc96.png)
-
-
