@@ -76,3 +76,11 @@
    ]
   }
 ```
+
+
+## 使い方
+
+```
+npm install
+npm run build
+```
