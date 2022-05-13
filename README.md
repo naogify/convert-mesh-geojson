@@ -84,3 +84,5 @@
 npm install
 npm run build
 ```
+
+`osaka_city_food_biz.geojson` という GeoJSON ファイルが生成されます。
