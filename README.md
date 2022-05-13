@@ -1,8 +1,10 @@
 # convert-mesh-geojson
 
-[大阪市の食品営業許可施設一覧データ](https://www.city.osaka.lg.jp/contents/wdu290/opendata/#cat-all_data-00000382)の店舗を、許可満了年で126mメッシュごとに集計し、メッシュ上の GeoJSON を作成するスクリプトです。
+[大阪市の食品営業許可施設一覧データ](https://www.city.osaka.lg.jp/contents/wdu290/opendata/#cat-all_data-00000382)の施設を、許可満了年で126mメッシュごとに集計し、メッシュ上の GeoJSON を作成するスクリプトです。
 
 下の様な形式の GeoJSON を作成します。
+
+`properties` の4桁の数のキーと値は、許可満了年とその施設件数です。例： `"2025": 1` は、その範囲に 許可満了日が2025年の施設が一件あったことを表します。
 
 ```
 {
